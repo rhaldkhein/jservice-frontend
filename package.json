@@ -1,0 +1,36 @@
+{
+  "name": "jservice-frontend",
+  "version": "0.1.0",
+  "description": "Collection of common services on client side for JService",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "npm run clean && babel src --out-dir lib",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhaldkhein/jservice-common.git"
+  },
+  "author": "RhaldKhein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaldkhein/jservice-common/issues"
+  },
+  "homepage": "https://github.com/rhaldkhein/jservice-common#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
+}
