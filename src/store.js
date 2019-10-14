@@ -4,7 +4,7 @@ export default class Store {
   static service = 'store'
 
   base = null
-  _namespace = 'rsrx:'
+  _namespace = 'jsvx:'
   _collection = null
   _config = null
   _reducers = null
